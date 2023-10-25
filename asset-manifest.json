@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/ithomework/static/css/main.8e8363f9.css",
-    "main.js": "/ithomework/static/js/main.9d60bc0c.js",
+    "main.css": "/ithomework/static/css/main.8462eb35.css",
+    "main.js": "/ithomework/static/js/main.dcf50b5e.js",
     "static/js/787.177e23c2.chunk.js": "/ithomework/static/js/787.177e23c2.chunk.js",
+    "static/media/Montserrat-Italic-VariableFont_wght.ttf": "/ithomework/static/media/Montserrat-Italic-VariableFont_wght.7451547bd28d8dddbeea.ttf",
+    "static/media/avatar.png": "/ithomework/static/media/avatar.d947cb9d0d13765666b6.png",
     "index.html": "/ithomework/index.html",
-    "main.8e8363f9.css.map": "/ithomework/static/css/main.8e8363f9.css.map",
-    "main.9d60bc0c.js.map": "/ithomework/static/js/main.9d60bc0c.js.map",
+    "main.8462eb35.css.map": "/ithomework/static/css/main.8462eb35.css.map",
+    "main.dcf50b5e.js.map": "/ithomework/static/js/main.dcf50b5e.js.map",
     "787.177e23c2.chunk.js.map": "/ithomework/static/js/787.177e23c2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e8363f9.css",
-    "static/js/main.9d60bc0c.js"
+    "static/css/main.8462eb35.css",
+    "static/js/main.dcf50b5e.js"
   ]
 }
