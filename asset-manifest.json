@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/ithomework/static/css/main.78282f0e.css",
+    "main.js": "/ithomework/static/js/main.7dc1ecc6.js",
+    "static/js/787.177e23c2.chunk.js": "/ithomework/static/js/787.177e23c2.chunk.js",
+    "static/media/Montserrat-Italic-VariableFont_wght.ttf": "/ithomework/static/media/Montserrat-Italic-VariableFont_wght.7451547bd28d8dddbeea.ttf",
+    "static/media/avatar.png": "/ithomework/static/media/avatar.d947cb9d0d13765666b6.png",
+    "static/media/404.svg": "/ithomework/static/media/404.9ec31c0ba8d95b0480272e46af98c955.svg",
+    "static/media/closeOutline.svg": "/ithomework/static/media/closeOutline.b64ba402fac8a549bc2de97e9cf84a61.svg",
+    "static/media/checked.svg": "/ithomework/static/media/checked.b75ca55e8759862b4083.svg",
+    "index.html": "/ithomework/index.html",
+    "static/media/burger.svg": "/ithomework/static/media/burger.700e416f7bfe3697f96b36c778d25355.svg",
+    "main.78282f0e.css.map": "/ithomework/static/css/main.78282f0e.css.map",
+    "main.7dc1ecc6.js.map": "/ithomework/static/js/main.7dc1ecc6.js.map",
+    "787.177e23c2.chunk.js.map": "/ithomework/static/js/787.177e23c2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78282f0e.css",
+    "static/js/main.7dc1ecc6.js"
+  ]
+}
