@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ithomework/static/css/main.a3b08885.css",
-    "main.js": "/ithomework/static/js/main.778f2cfc.js",
+    "main.css": "/ithomework/static/css/main.8f94541d.css",
+    "main.js": "/ithomework/static/js/main.d0e63113.js",
     "static/js/787.177e23c2.chunk.js": "/ithomework/static/js/787.177e23c2.chunk.js",
     "static/media/Montserrat-Italic-VariableFont_wght.ttf": "/ithomework/static/media/Montserrat-Italic-VariableFont_wght.7451547bd28d8dddbeea.ttf",
     "static/media/avatar.png": "/ithomework/static/media/avatar.d947cb9d0d13765666b6.png",
@@ -11,12 +11,12 @@
     "static/media/checked.svg": "/ithomework/static/media/checked.b75ca55e8759862b4083.svg",
     "index.html": "/ithomework/index.html",
     "static/media/burger.svg": "/ithomework/static/media/burger.700e416f7bfe3697f96b36c778d25355.svg",
-    "main.a3b08885.css.map": "/ithomework/static/css/main.a3b08885.css.map",
-    "main.778f2cfc.js.map": "/ithomework/static/js/main.778f2cfc.js.map",
+    "main.8f94541d.css.map": "/ithomework/static/css/main.8f94541d.css.map",
+    "main.d0e63113.js.map": "/ithomework/static/js/main.d0e63113.js.map",
     "787.177e23c2.chunk.js.map": "/ithomework/static/js/787.177e23c2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3b08885.css",
-    "static/js/main.778f2cfc.js"
+    "static/css/main.8f94541d.css",
+    "static/js/main.d0e63113.js"
   ]
 }
