@@ -3,7 +3,7 @@ import * as io from "socket.io-client";
 import s from "./TopMenu.module.css"
 import axios from "axios";
 
-const socket = io.connect("http://localhost:3001");
+// const socket = io.connect("http://localhost:3001");
 
 export const TopMenu = () => {
 
@@ -17,26 +17,26 @@ export const TopMenu = () => {
 
     const [connectedNumber, setConnectedNumber] = useState(1);
 
-    useEffect( () => {
-        socket.on("connectedUsersCount", (data) => {
-            setConnectedNumber(data);
-        });
-    }, [socket])
+    // useEffect( () => {
+    //     // // socket.on("connectedUsersCount", (data) => {
+    //     // //     setConnectedNumber(data);
+    //     // });
+    // }, [socket])
 
     useEffect( () => {
-        var timer = setInterval(()=>setDate(new Date()), 1000 )
+        // var timer = setInterval(()=>setDate(new Date()), 1000 )
 
-        axios.get('http://localhost:3001/getOnline')
-            .then( (res) => {
-                setConnectedNumber(res.data.connectedUsersCount); 
-            })
-            .catch(function (error) {
-                alert(error.toJSON().message);
-            });
+        // axios.get('http://localhost:3001/getOnline')
+        //     .then( (res) => {
+        //         setConnectedNumber(res.data.connectedUsersCount); 
+        //     })
+        //     .catch(function (error) {
+        //         alert(error.toJSON().message);
+        //     });
 
-        return function cleanup() {
-            clearInterval(timer)
-        }
+        // return function cleanup() {
+        //     clearInterval(timer)
+        // }
     }, [])
 
     return (
