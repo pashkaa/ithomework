@@ -15,7 +15,7 @@ export const TopMenu = () => {
 
     const time = date.toLocaleTimeString().substring(0,5);
 
-    const [connectedNumber, setConnectedNumber] = useState(0);
+    const [connectedNumber, setConnectedNumber] = useState(1);
 
     useEffect( () => {
         socket.on("connectedUsersCount", (data) => {
@@ -30,6 +30,9 @@ export const TopMenu = () => {
             .then( (res) => {
                 setConnectedNumber(res.data.connectedUsersCount); 
             })
+            .catch(function (error) {
+                alert(error.toJSON().message);
+            });
 
         return function cleanup() {
             clearInterval(timer)

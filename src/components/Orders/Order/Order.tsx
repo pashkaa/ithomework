@@ -34,24 +34,15 @@ export const Order:React.FC<OrderPropsType> = ({order, ...props}) => {
         navigate(`/groups`);
     }
 
-    var foo = {
-        taxes: [
-            { amount: 25, currencyCode: "USD", decimalPlaces: 0, taxCode: "YRI"},
-            { amount: 25, currencyCode: "USD", decimalPlaces: 0, taxCode: "YRI"},
-            { amount: 10, currencyCode: "USD", decimalPlaces: 0, taxCode: "YRI"}
-        ]
-    }
-    
-    const elements = [];
     let usd = 0;
     let uah = 0;
     if(order.products.length > 0) {
-        console.log(order.products);
-        
+
         order.products.forEach( (element) => {
             usd += element.price[0].value;
             uah += element.price[1].value;
         })
+        
     }
     
 
